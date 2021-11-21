@@ -86,7 +86,7 @@ namespace LabCalculator
             this.expressionTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.expressionTextBox.Font = new System.Drawing.Font("Segoe UI", 20F);
             this.expressionTextBox.ForeColor = System.Drawing.Color.White;
-            this.expressionTextBox.Location = new System.Drawing.Point(3, 126);
+            this.expressionTextBox.Location = new System.Drawing.Point(3, 127);
             this.expressionTextBox.Name = "expressionTextBox";
             this.expressionTextBox.Size = new System.Drawing.Size(388, 43);
             this.expressionTextBox.TabIndex = 1;
@@ -97,7 +97,7 @@ namespace LabCalculator
             this.expressionLabel.AutoSize = true;
             this.expressionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.expressionLabel.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
-            this.expressionLabel.Location = new System.Drawing.Point(3, 66);
+            this.expressionLabel.Location = new System.Drawing.Point(3, 67);
             this.expressionLabel.Name = "expressionLabel";
             this.expressionLabel.Size = new System.Drawing.Size(388, 57);
             this.expressionLabel.TabIndex = 3;
@@ -123,7 +123,7 @@ namespace LabCalculator
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 77F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(394, 444);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(394, 445);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
             // tableLayoutPanel2
@@ -134,7 +134,7 @@ namespace LabCalculator
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.solveButton, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 303);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 304);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -148,7 +148,7 @@ namespace LabCalculator
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55.27638F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 18F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 94F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 85F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
             this.tableLayoutPanel4.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.label2, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.label3, 3, 0);
@@ -156,7 +156,7 @@ namespace LabCalculator
             this.tableLayoutPanel4.Controls.Add(this.stepsNumericUpDown, 4, 0);
             this.tableLayoutPanel4.Controls.Add(this.maxValueTextBox, 1, 1);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 179);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 180);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -171,7 +171,7 @@ namespace LabCalculator
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 46);
+            this.label1.Size = new System.Drawing.Size(78, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "Min";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -183,7 +183,7 @@ namespace LabCalculator
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(3, 46);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 47);
+            this.label2.Size = new System.Drawing.Size(78, 47);
             this.label2.TabIndex = 1;
             this.label2.Text = "Max";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -193,7 +193,7 @@ namespace LabCalculator
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(211, 0);
+            this.label3.Location = new System.Drawing.Point(210, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 46);
             this.label3.TabIndex = 2;
@@ -206,7 +206,7 @@ namespace LabCalculator
             this.minValueTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.minValueTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.minValueTextBox.ForeColor = System.Drawing.Color.White;
-            this.minValueTextBox.Location = new System.Drawing.Point(88, 3);
+            this.minValueTextBox.Location = new System.Drawing.Point(87, 3);
             this.minValueTextBox.Name = "minValueTextBox";
             this.minValueTextBox.Size = new System.Drawing.Size(99, 31);
             this.minValueTextBox.TabIndex = 2;
@@ -220,7 +220,7 @@ namespace LabCalculator
             this.stepsNumericUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
             this.stepsNumericUpDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.stepsNumericUpDown.ForeColor = System.Drawing.Color.White;
-            this.stepsNumericUpDown.Location = new System.Drawing.Point(305, 3);
+            this.stepsNumericUpDown.Location = new System.Drawing.Point(304, 3);
             this.stepsNumericUpDown.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -232,7 +232,7 @@ namespace LabCalculator
             0,
             0});
             this.stepsNumericUpDown.Name = "stepsNumericUpDown";
-            this.stepsNumericUpDown.Size = new System.Drawing.Size(80, 31);
+            this.stepsNumericUpDown.Size = new System.Drawing.Size(81, 31);
             this.stepsNumericUpDown.TabIndex = 4;
             this.stepsNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.stepsNumericUpDown.Value = new decimal(new int[] {
@@ -248,7 +248,7 @@ namespace LabCalculator
             this.maxValueTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.maxValueTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.maxValueTextBox.ForeColor = System.Drawing.Color.White;
-            this.maxValueTextBox.Location = new System.Drawing.Point(88, 49);
+            this.maxValueTextBox.Location = new System.Drawing.Point(87, 49);
             this.maxValueTextBox.Name = "maxValueTextBox";
             this.maxValueTextBox.Size = new System.Drawing.Size(99, 31);
             this.maxValueTextBox.TabIndex = 3;
@@ -270,7 +270,7 @@ namespace LabCalculator
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1344, 450);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1344, 451);
             this.tableLayoutPanel3.TabIndex = 7;
             // 
             // functionCartesianChart
@@ -279,7 +279,7 @@ namespace LabCalculator
             this.functionCartesianChart.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.functionCartesianChart.Location = new System.Drawing.Point(875, 3);
             this.functionCartesianChart.Name = "functionCartesianChart";
-            this.functionCartesianChart.Size = new System.Drawing.Size(466, 444);
+            this.functionCartesianChart.Size = new System.Drawing.Size(466, 445);
             this.functionCartesianChart.TabIndex = 7;
             this.functionCartesianChart.TabStop = false;
             this.functionCartesianChart.Text = "cartesianChart1";
@@ -337,7 +337,7 @@ namespace LabCalculator
             this.functionDataGridView.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
             this.functionDataGridView.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.DimGray;
             this.functionDataGridView.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.functionDataGridView.Size = new System.Drawing.Size(466, 444);
+            this.functionDataGridView.Size = new System.Drawing.Size(466, 445);
             this.functionDataGridView.TabIndex = 5;
             this.functionDataGridView.TabStop = false;
             // 
@@ -368,10 +368,10 @@ namespace LabCalculator
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1344, 450);
+            this.ClientSize = new System.Drawing.Size(1344, 451);
             this.Controls.Add(this.tableLayoutPanel3);
             this.ForeColor = System.Drawing.Color.LightGray;
-            this.MinimumSize = new System.Drawing.Size(379, 335);
+            this.MinimumSize = new System.Drawing.Size(620, 360);
             this.Name = "MainForm";
             this.Text = "Lab Calculator";
             this.tableLayoutPanel1.ResumeLayout(false);
